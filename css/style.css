@@ -71,13 +71,14 @@ header{
   margin: 10px;
   width: 300px;
 }
-*/
+
 
 /*Requirement 9*/
 #logo{
-  -webkit-animation: logo_grow;
+  /* -webkit-animation: logo_grow; */
   animation-name: logo_grow;
   animation-duration: 15s;
+  animation-iteration-count: 1;
  
 }
 
